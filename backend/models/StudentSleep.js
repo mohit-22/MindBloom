@@ -33,7 +33,7 @@ const StudentSleepSchema = new mongoose.Schema({
     max: 10
   },
   bedtime: {
-    type: String, // HH:MM format
+    type: String, // HH:MM  format
     required: true
   },
   wakeTime: {
