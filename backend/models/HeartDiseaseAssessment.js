@@ -9,7 +9,7 @@ const HeartDiseaseAssessmentSchema = new mongoose.Schema({
   // Input parameters
   inputs: {
     age: { type: Number, required: true, min: 20, max: 100 },
-    sex: { type: Number, required: true, enum: [0, 1] }, // 0=female, 1=male
+    sex: { type: Number, required: true, enum: [0, 1] }, // 0=female, 1 =male
     chestPainType: { type: Number, required: true, min: 0, max: 3 },
     restingBP: { type: Number, required: true, min: 80, max: 200 },
     cholesterol: { type: Number, required: true, min: 126, max: 600 },

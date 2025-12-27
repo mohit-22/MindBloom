@@ -15,7 +15,7 @@ const TaskSchema = new mongoose.Schema({
     default: 'medium'
   },
   estimatedTime: {
-    type: Number, // in minutes
+    type: Number, // in  minutes
     required: true,
     min: 5,
     max: 480 // 8 hours
